@@ -10,14 +10,13 @@ Uses Font Awesome icons, Google Fonts and Twitter Twemoji.
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Stella's Landing Site</title>
+    <title>Decentcarp's site</title>
 
 	<!-- When developing locally, switch to using the local CSS.
 	 You can do this by uncommenting the line linking to the local landing-styleshit.css
 	and then commenting out the link to the remote one!
 	 -->
-    <link rel="stylesheet" href="//files.thatstel.la/hidden/css/landing-styleshit.css?version=202507290"/>
-    <!--<link rel="stylesheet" href="landing-styleshit.css">-->
+    <link rel="stylesheet" href="landing-styleshit.css">
 
  	<link rel="shortcut icon" href="landing-assets/favicon.ico" type="image/x-icon"/>
  	<meta name="viewport" content="width=device-width, height=device-height, viewport-fit=cover"/>
@@ -54,8 +53,8 @@ Uses Font Awesome icons, Google Fonts and Twitter Twemoji.
   	<div id="master">
   		<div id="verticalcontainer">
   			<div id="abovelinks" onclick="promptShowCat()">
-  				<img alt="ThatStella7922's profile picture" id="profilepicture" width="92" height="92" src="//files.thatstel.la/hidden/avatars-banners-socials/pfp.png" />
-  				<p id="displayname">ThatStella7922</p>
+  				<img alt="Decentcarp's profile picture" style="border-radius:60%;" id="profilepicture" width="92" height="92" src="/landing/landing-assets/decentcarp-pfp.png" />
+  				<p id="displayname">Decentcarp</p>
   			</div>
   			
 			<noscript>
@@ -69,24 +68,20 @@ Uses Font Awesome icons, Google Fonts and Twitter Twemoji.
   			
   				<div id="navigation">
   					<div id="navigation-buttons" class="links">
-  						<a class="button" href="//blog.thatstel.la">Blog</a>
-  						<a class="button" href="//files.thatstel.la">Files</a>
-  						<a class="button" href="https://software.thatstel.la">Software</a>
+  						<a class="button" href="//blog.thatstel.la">placeholder</a>
+  						<a class="button" href="//files.thatstel.la">placeholder</a>
+  						<a class="button" href="https://software.thatstel.la">placeholder</a>
   					</div>
   				
   					<div class="social-links">
   						<p id="quotep"></p>
   						<p class="social-links-label">More:</p>
   						<div id="social-link-buttons-id" class="social-link-buttons">
-  							<p><i class="fa-solid fa-envelope"></i><br><a href="mailto:contact@thatstel.la">Email</a></p>
-  							<p><i class="fa-brands fa-github"></i><br><a href="https://github.com/ThatStella7922">GitHub</a></p>
-  							<p><i class="fa-brands fa-discord"></i><br><a href="https://discord.thatstel.la">Fruitycord</a></p>
-  							<p><i class="fa-brands fa-twitter"></i><br><a href="https://twitter.com/ThatStella7922">Twitter</a></p>
-  							<p><i class="fa-brands fa-youtube"></i><br><a href="https://youtube.com/@ThatStella7922">YouTube</a></p>
-  							<p><a href="https://en.pronouns.page/@ThatStella7922">🏳️‍⚧️<br>pronouns.page</a></p>
-  							<p><i class="fa-solid fa-heart"></i><br><a href="https://crystall1ne.dev">moo wife's site</a></p>
-  							<p><i class="fa-solid fa-dollar-sign"></i><br><a href="https://cash.app/$ThatStella7922">CashApp</a></p>
-  							<p><i class="fa-brands fa-patreon"></i><br><a href="https://www.patreon.com/ThatStella7922">Patreon</a></p>
+  							<p><i class="fa-solid fa-envelope"></i><br><a href="mailto:">Email</a></p>
+  							<p><i class="fa-brands fa-github"></i><br><a href="https://github.com/decentcarp">GitHub</a></p>
+  			 				<p><i class="fa-brands fa-discord"></i><br><a href="">Discord</a></p> 
+  							<p><i class="fa-solid fa-comments"></i><br><a href="https://matrix.to/#/@decentcarp:envs.net">Matrix</a></p>
+  							<p><i class="fa-solid fa-thumbs-up"></i><br><a href="https://patchedmac.jp.net">patchedmac's Site</a></p>
   						</div>
   					</div>
   				</div>
@@ -94,42 +89,23 @@ Uses Font Awesome icons, Google Fonts and Twitter Twemoji.
   				<div id="contentview-container"> <!-- Also see setupIntialContentView in contentview.js -->
 					<div id="contentview-headings">
   						<p id="contentview-about-heading" class="contentview-selected" onclick="selectItem('contentview-about')">About</p>
-						<p id="contentview-projects-heading" class="contentview-selected" onclick="selectItem('contentview-projects')">Projects</p>
+						<p id="contentview-projects-heading" class="contentview-selected" onclick="selectItem('contentview-projects')">Machines</p>
 					</div>
 
 					<div id="contentview-items">
 						<div id="contentview-about-content">
-							<p>My name is Stella. I'm a passionate technology enthusiast, working with all sorts of tech. From PHP, Python, Swift and more languages to installing Windows on Android phones, to doing amateur audio mixing, I do a bit of everything. I also enjoy working with hardware and networking, having built several PCs, designing small electronics projects of my own and hosting my own services on a home server.</p>
-							<p>I love exploring whatever comes my way, and I enjoy creating new things and meeting new people. Consider joining my Discord server Fruitycord if you feel like chatting!</p>
-							<p>My wife Eva is also into many of the same things, and you should check out her site too (it's linked). I do a lot of what I do for her, and she returns in kind by being a great partner (with plenty of cute mooing to go along).</p>
+							<p>Hey there! I'm Decentcarp. I'm your average teenager who likes tinkering around with stuff and tech. I don't really have much to say about myself. I'll write a proper About Me eventually.</p>
 						</div>
 
 						<div id="contentview-projects-content">
-							<p><a href="https://software.thatstel.la/software/crossplatform-apps/battery-webhook">Battery Webhook</a> was my flagship project, allowing you to send your battery info to popular services using webhooks. The app has source available on <a href="https://github.com/ThatStella7922/battery-webhook">GitHub</a>, it supports automations, is available on SideStore and the project's GitHub Releases! I do plan an Android port as well.</p>
-							<p><b>This landing page</b> is another big project of mine, having been written from the ground up with <b>pure</b> HTML, CSS and JavaScript. It's the most performant and lightweight webpage I've ever made, and retains its functionality on legacy devices. It has documentation and source available on <a href="https://github.com/ThatStella7922/landing">GitHub</a>.</p>
-							<p>I also often work on smaller projects, like the code-side of my <a href="https://github.com/ThatStella7922/blog">blog</a>, or my Minecraft modpack called <a href="https://modrinth.com/modpack/star">Star</a>.</p>
+							<p>This website is hosted on my Raspberry Pi 5 8GB running Gentoo.</p>
+							<p> My main desktop is my own PC I built, with a Ryzen 7 5700X3D, Radeon RX 7900 XT and 64GB DDR4-3600. It runs Windows 11 24H2.</p>
+							<p> My main laptop is a mid-spec 2015 15" MacBook Pro, with a i7-4870HQ, Iris Pro 5200 (iGPU)/AMD Radeon R9 M370X (dGPU) and 16GB of DDR3-1600. It runs macOS 10.12.6 Sierra.</p>
+							<p>I have various other interesting machines, such as my Pi 4 (runs Debian), my Original/Early 2006 15" MacBook Pro (runs 10.6 and 10.7 (unofficially)), my 2013 Mac Pro (runs Fedora 42), and a few others.</p>
 						</div>
 					</div>
   				</div>  	
   				
-  				<div id="catvideo-container">
-  					<div id="catvideo">
-    					<video controls loop id="catvideo-element">
-    					<source src="" type="video/mp4"/> <!-- The src for this video is filled in JS by cat.js on the fly to not load it when not needed -->
-    					Your browser does not support the cat video present here.
-    					</video>
-    				</div>
-    				<div id="catbuttons-container" class="">
-    				<button id="catbutton-playpause" onclick="playPauseCat()"></button>
-    				</div>
-				</div>
-
-				<div id="ntaswidget-container">
-					<div id="ntaswidget">
-						<!-- The src for this iframe is filled in JS by ntaswidget.js on the fly to not load it when not needed -->
-						<iframe id="ntaswidget-iframe" src="" name="National Terrorism Advisory System" title="National Terrorism Advisory System" scrolling="no" frameborder="0" seamless></iframe>
-				  	</div>
-				</div>	
 
   			</div>
   		</div>
@@ -140,7 +116,7 @@ Uses Font Awesome icons, Google Fonts and Twitter Twemoji.
   	
   	<footer>
   		<div id="footer-sidebyside">
-  			<p onclick="manualSetQuotesText()">ThatStella7922 - v2025.0729.0</p>
+  			<p onclick="manualSetQuotesText()">Powered by Gentoo - made with ThatStella7922's landing page</p>
   		</div>
   	</footer>
   	

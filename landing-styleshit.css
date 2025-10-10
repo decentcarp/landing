@@ -27,7 +27,7 @@ body {
 }
 
 a {
-    color: #e872e2;
+    color: #6699ff;
     font-weight: bold;
 }
 
@@ -44,8 +44,7 @@ body:before {
     left: -2vw;
 	width: 104vw;
 	height: 104vh;
-    background-image: url('http://thatstel.la/landing-assets/MS-Sapphic.jpg');
-    background-image: url('//thatstel.la/landing-assets/MS-Sapphic.jpg');
+    background-image: url('/landing/landing-assets/iOS8Nebula.png');
     background-size: 100% 100%; /* for older browsers to scale the bg to the viewport */
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -59,7 +58,7 @@ body:before {
 #master {
     z-index: 1;
     text-align: center;
-    border-bottom: 4px solid #e872e2;
+    border-bottom: 4px solid #6699ff;
     min-height: 100vh;
     height: 100%;
 }
@@ -82,7 +81,7 @@ body:before {
     display: block;
     margin-top: 15vh; /* Move the ThatStella7922 text down */
     font-size: 49px;
-    text-shadow: 0.03em 0.03em 0.1em rgb(79, 64, 77);
+    text-shadow: 0.03em 0.03em 0.1em rgb(61, 64, 103);
 }
 
 /* Styling for the main ThatStella7922 text */
@@ -101,7 +100,7 @@ body:before {
     object-fit: cover;
     margin: 0 0 0 0;
     transform: translateY(20px);
-    filter: drop-shadow(0.03em 0.03em 0.1em rgb(79, 64, 77)); /* Shadow for the profile picture */
+    filter: drop-shadow(0.03em 0.03em 0.1em rgb(61, 64, 103)); /* Shadow for the profile picture */
 }
 
 
@@ -154,7 +153,7 @@ Links Styling
 /* Styling for the website link buttons (buttons pt2) */
 #master #verticalcontainer #horizontalcontainer .links .button {
     /* basically make a button */
-    background-color: #e872e2;
+    background-color: #6699ff;
     border-radius: 25px;
     border: none;
     color: white;
@@ -229,7 +228,7 @@ Cat Video Styling
 /* Styling for the cat video play/pause button */
 #master #verticalcontainer #catvideo-container #catbuttons-container button {
     /* basically make a button */
-    background-color: #e872e2;
+    background-color: #6699ff;
     border-radius: 25px;
     border: none;
     color: white;
@@ -415,7 +414,7 @@ img.emoji {
         margin: 0px;
         font-size: 100%;
     }
-}
+} 
 
 /* dark mode styling! */
 @media (prefers-color-scheme: dark) {
@@ -436,7 +435,7 @@ img.emoji {
 
     /* Style the entire thatstella7922 text and profile picture container */
     #master #verticalcontainer #abovelinks {
-        text-shadow: 0.03em 0.03em 0.13em rgba(255, 210, 247, 0.407);
+        text-shadow: 0.03em 0.03em 0.13em rgba(210, 239, 255, 0.4);
     }
 
     /* Media query for checking if blending modes are supported

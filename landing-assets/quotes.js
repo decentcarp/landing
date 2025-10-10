@@ -13,17 +13,10 @@ var currentDay = currentFullDate.getDate();
 
 // Quotes
 const quotes = [
-    "You've shown me light<br>You gave me wings to fly<br>And I will always be thankful", // from Butterfly by kmac2021
-    "Stars can't shine without darkness", // from Fragile Truths by D.H. Sidebottom
-    "Sometimes you put walls up not to keep people out, but to see who cares enough to break them down", // from Socrates
-    "The secret of change is to focus all of your energy.<br>Not on fighting the old, but on building the new", // from Way of the Peaceful Warrior: A Book that Changes Lives by Dan Millman
-    "So come, take my hand and<br>Come, make me feel what it's like<br>When love comes alive", // from Circles by KIRA
-    "Another day, another dream? Either way, make the most of it", // from myself
-    "The only good is knowledge<br>And the only evil is ignorance", // from Socrates
-    "Indecisiveness and hesitation. Avoid them both or you will always be filled with regret", // from myself
-    "Ichigo... do you know how I hate rain? And it rains in this world, too.<br>If your heart is troubled, the skies will become cloudy.<br>If you grieve, it will rain ever so easily.", // From Bleach (Zangetsu)
-    "Transgender people just want to be themselves in a society that marginalizes...<br>Please support them, or at the very minimum let them be.", // From myself. I just want people to not hate us
-];
+    "Another day, another dream? Either way, make the most of it", 
+    "If you're going through hell, keep going", 
+    "Rules are not necessarily sacred, principles are", 
+  ];
 
 function getRandomQuote() {
   var quote = quotes[~~(Math.random() * quotes.length)];
@@ -33,10 +26,12 @@ function getRandomQuote() {
 function setQuotesText() {
   switch (currentMonth) {
     // Switch statement for months, each month case can have a switch statement for days too
-    case 3:
+
+
+    case 05:
       switch (currentDay) {
-        case 23:
-          var quoteText = "Happy birthday to my moo wife!";
+        case 08:
+          var quoteText = "Victory in Europe Day";
           break;
         default:
           var quoteText = getRandomQuote();
@@ -44,32 +39,16 @@ function setQuotesText() {
       }
       break;
 
-    case 6:
-      switch (currentDay) {
-        default:
-          var quoteText = "Happy Pride Month! 🏳️‍🌈 🏳️‍⚧️";
-          break;
-      }
-      break;
-
-    case 7:
-      switch (currentDay) {
-        case 11:
-          var quoteText = "Stella's Birthday. Happy birthday to me";
-          break;
-        default:
-          var quoteText = getRandomQuote();
-          break;
-      }
-      break;
-
-    case 10:
-      switch (currentDay) {
-        default:
-          var quoteText = "Happy LGBTQ+ History Month!<br>(US/Canada/Australia)";
-          break;
-      }
-      break;
+      case 10:
+        switch (currentDay) {
+          case 24:
+            var quoteText = "yay me birthday";
+            break;
+          default:
+            var quoteText = getRandomQuote();
+            break;
+        }
+        break;
 
     default:
       var quoteText = getRandomQuote();
