@@ -1,9 +1,8 @@
 /*
-ThatStella7922 Landing Website Stylesheet
+Decentcarp Landing Website Stylesheet, based on ThatStella7922's landing website
 
-mreowww :3
+miaw :3
 
-v2025.0729.0
 */
 
 /* small css reset because something was causing issues and im too dumb to figure out what it was */
@@ -58,7 +57,7 @@ body:before {
 #master {
     z-index: 1;
     text-align: center;
-    border-bottom: 4px solid #6699ff;
+    border-bottom: 4px solid #7ca8ff;
     min-height: 100vh;
     height: 100%;
 }
@@ -76,15 +75,15 @@ body:before {
     padding: 0 env(safe-area-inset-right) 0 env(safe-area-inset-left);
 }
 
-/* Style the entire thatstella7922 text and profile picture container */
+/* Style the entire Decentcarp text and profile picture container */
 #master #verticalcontainer #abovelinks {
     display: block;
-    margin-top: 15vh; /* Move the ThatStella7922 text down */
+    margin-top: 15vh; /* Move the Decentcarp text down */
     font-size: 49px;
     text-shadow: 0.03em 0.03em 0.1em rgb(61, 64, 103);
 }
 
-/* Styling for the main ThatStella7922 text */
+/* Styling for the main Decentcarp text */
 #master #verticalcontainer #abovelinks #displayname {
     font-weight: 300;
     margin: 0 0 20px 0;
@@ -153,7 +152,7 @@ Links Styling
 /* Styling for the website link buttons (buttons pt2) */
 #master #verticalcontainer #horizontalcontainer .links .button {
     /* basically make a button */
-    background-color: #6699ff;
+    background-color: #77a4ff;
     border-radius: 25px;
     border: none;
     color: white;
@@ -203,64 +202,6 @@ Contentview Styling
     color: #FFFFFF;
 }
 
-
-/*
-
-Cat Video Styling
-
-*/
-#master #verticalcontainer #catvideo-container {
-    max-width: 600px;
-    max-height: 600px;
-    display: none;
-    overflow: hidden;
-}
-
-#master #verticalcontainer #catvideo {
-    height: 50vh;
-}
-
-#master #verticalcontainer #catvideo video {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-}
-/* Styling for the cat video play/pause button */
-#master #verticalcontainer #catvideo-container #catbuttons-container button {
-    /* basically make a button */
-    background-color: #6699ff;
-    border-radius: 25px;
-    border: none;
-    color: white;
-    padding: 9px 25px;
-    margin: 4px;
-    text-decoration: none;
-    cursor: pointer;
-    font-size: 100%;
-}
-
-
-/*
-
-NTAS Widget (see https://www.dhs.gov/ntas-widget, I added because lordofpc734 in Fruitycord thought it would be funny)
-
-*/
-#master #verticalcontainer #ntaswidget-container {
-    max-width: 600px;
-    max-height: 600px;
-    display: none;
-    overflow: hidden;
-}
-
-#master #verticalcontainer #ntaswidget {
-    height: 50vh;
-}
-
-#master #verticalcontainer #ntaswidget iframe {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-}
 
 
 /* Footer */
@@ -337,7 +278,7 @@ img.emoji {
         font-size: 78px;
     }
 
-    /* Styling for the main ThatStella7922 text */
+    /* Styling for the main Decentcarp text */
     #master #verticalcontainer #abovelinks #displayname {
         font-weight: 300;
         margin: 20px 0 20px 0;
@@ -373,7 +314,7 @@ img.emoji {
         padding-right: 15px;
     }
 
-    /* Move the ThatStella7922 text down */
+    /* Move the Decentcarp text down */
     #master #verticalcontainer #abovelinks {
         margin-top: 5vh;
     }
@@ -392,10 +333,10 @@ img.emoji {
     }
 }
 
-/* Media query detects a max height of 600px to move the thatstella7922 text down a bit 
+/* Media query detects a max height of 600px to move the Decentcarp text down a bit 
    (for long viewports i guess, it looks nicer to my eye) */
 @media screen and (max-height: 680px) {
-    /* Move the ThatStella7922 text down */
+    /* Move the Decentcarp text down */
     #master #verticalcontainer #abovelinks {
         margin-top: 25vh;
     }
@@ -433,7 +374,7 @@ img.emoji {
         filter: brightness(0.3);
     }
 
-    /* Style the entire thatstella7922 text and profile picture container */
+    /* Style the entire Decentcarp text and profile picture container */
     #master #verticalcontainer #abovelinks {
         text-shadow: 0.03em 0.03em 0.13em rgba(210, 239, 255, 0.4);
     }
