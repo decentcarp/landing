@@ -16,9 +16,6 @@ const quotes = [
     "Another day, another dream? Either way, make the most of it", 
     "If you're going through hell, keep going", 
     "Rules are not necessarily sacred, principles are", 
-    "In time of difficulties, we must not lose sight of our achievements",
-    "If one says your dreams are insane—take that as a compliment",
-    "If the sky is the limit, go beyond the atmosphere"
 ]
 
 function getRandomQuote() {
